@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip3 install:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(grep -i -E '\\\\.\\(png|jpg|jpeg|webp\\)$')",
+      "Bash(npm --version)",
+      "Read(//usr/local/bin/**)",
+      "Read(//Users/brianaaugustina/Desktop/Website/$HOME/**)",
+      "Bash(brew --prefix)",
+      "Bash(sudo -n echo \"has sudo\")",
+      "Bash(export NVM_DIR=\"$HOME/.nvm\")",
+      "Bash(. \"$NVM_DIR/nvm.sh\")",
+      "Read(//Users/brianaaugustina/Desktop/**)",
+      "Bash(npx create-next-app@latest dashboard --typescript --tailwind --eslint --app --src=no --import-alias=\"@/*\" --use-npm)",
+      "Bash(yes \"\")",
+      "Bash(npm run:*)",
+      "Bash(npm install:*)",
+      "Bash(xattr -l /Users/brianaaugustina/Desktop/Website/assets/images/camera.png)",
+      "Bash(xxd /Users/brianaaugustina/Desktop/Website/assets/images/camera.png)",
+      "Read(//private/tmp/website-preview/assets/images/**)",
+      "Bash(mkdir -p /tmp/website-preview/css /tmp/website-preview/js /tmp/website-preview/assets/images /tmp/website-preview/assets/fonts)",
+      "Bash(cp /Users/brianaaugustina/Desktop/Website/index.html /Users/brianaaugustina/Desktop/Website/about.html /Users/brianaaugustina/Desktop/Website/portfolio.html /tmp/website-preview/)",
+      "Bash(cp /Users/brianaaugustina/Desktop/Website/css/style.css /tmp/website-preview/css/)",
+      "Bash(cp /Users/brianaaugustina/Desktop/Website/js/main.js /tmp/website-preview/js/)",
+      "Bash(cp /Users/brianaaugustina/Desktop/Website/assets/images/* /tmp/website-preview/assets/images/)",
+      "Bash(npx next:*)"
+    ]
+  }
+}
