@@ -149,12 +149,14 @@ img {
   opacity: 0.6;
 }
 
-.sidebar__links .arrow {
+.arrow {
   font-size: 9px;
   margin-left: 3px;
   color: #999;
   display: inline-block;
   transform: scale(0.75, 1);
+  font-variant-emoji: text;
+  text-rendering: optimizeLegibility;
 }
 
 /* ===== MOBILE NAV ===== */
@@ -878,6 +880,14 @@ img {
     display: flex;
   }
 
+  .mobile-header__title {
+    font-size: 14.95px;
+  }
+
+  .hero__line {
+    display: inline;
+  }
+
   .main-content {
     margin-left: 0;
     padding-top: 60px;
@@ -886,6 +896,7 @@ img {
   .top-bar {
     padding: 16px 24px;
     padding-right: 24px;
+    margin-top: 4px;
   }
 
   .page-content {
